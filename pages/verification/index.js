@@ -18,7 +18,7 @@ export default class Registration extends React.Component {
     }
   }
 
-  // refreshing once
+  // refreshing once after the work is done
   componentDidMount = async () => {
     if (!window.location.hash) {
       window.location = window.location + '#loaded'
@@ -187,12 +187,12 @@ export default class Registration extends React.Component {
           </h2>
           {this.state.voters.length < 1 ? (
             <div className="m-4 rounded-md bg-teal-400 p-4 text-black">
-              None has registered yet.
+              Nobody has registered yet.
             </div>
           ) : (
             <>
               <div className="m-4 rounded-lg bg-teal-400 p-6 text-black">
-                <center>List of registered voters</center>
+                <center>List of Registered voters</center>
               </div>
               {this.state.voters.map(this.renderUnverifiedVoters)}
             </>
