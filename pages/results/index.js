@@ -5,6 +5,7 @@ import Navbarvoter from '../../components/Navbarvoter'
 import NotInit from '../../components/NotInit'
 
 //contract
+//This is the basic remark for the voting path
 import getWeb3 from '../../getWeb3'
 import Election from '../../client/src/contracts/Election.json'
 

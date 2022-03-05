@@ -209,7 +209,7 @@ export default class Voting extends React.Component {
                 <>
                   <div className="mockup-code">
                     <center>
-                      <p>You're not registered. Please register first.</p>
+                      <p>You're not registered. Please register yourself first.</p>
                       <br />
                       <Link href="/registration" className="text-black ">
                         <span className="cursor-pointer text-fuchsia-400">
